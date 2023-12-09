@@ -1,0 +1,90 @@
+<!-- Составить форму с выпадающим списком с рейтингом из 8-ми художественных произведений (на свой вкус, рейтинги или личные или с интернета) -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Работа с формами</title>
+    </head>
+    <body>
+        <form method="post" autocomplete="on" action="http://localhost:8080">
+            <p><input type="text" name="name" placeholder="Введите название произведения"></p>
+            <p><input type="text" name="author" placeholder="Введите имя автора"></p>
+            <h4>Genre</h4>
+            <p><input type="radio" value ="epic" name="genre" />Эпопея</p>
+            <p><input type="radio" value ="story" name="genre" />Рассказ</p>
+            <p><input type="radio" value ="play" name="genre" />Пьеса</p>
+            <p><input type="range" step="1" min="0" max="100" value="10" name="rating">Рейтинг</p>
+        </form>
+        <details>
+            <table>
+                <thead style = "background-color: blueviolet; color: aqua;">
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Author
+                        </td>
+                        <td>
+                            Genre
+                        </td>
+                        <td>
+                            My rating 1 to 10
+                        </td>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">
+                                This is my personal opinion!
+                        </th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>
+                            Война и мир
+                        </td>
+                        <td>
+                            Лев Толстой
+                        </td>
+                        <td>
+                            Эпопея
+                        </td>
+                        <td>
+                            9/10
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Горе от ума
+                        </td>
+                        <td>
+                            Александр Грибоедов
+                        </td>
+                        <td>
+                            Пьеса
+                        </td>
+                        <td>
+                            8/10
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Чудесный доктор
+                        </td>
+                        <td>
+                            Александр Куприн
+                        </td>
+                        <td>
+                            Рассказ
+                        </td>
+                        <td>
+                            7/10
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+    </body>
+</html>

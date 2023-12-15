@@ -1,0 +1,74 @@
+/* Подключение внешнего шрифта */
+@font-face {
+    font-family: 'Rubik Bubbles';
+    src: url('Rubik_Bubbles/RubikBubbles-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Rubik Bubbles;
+    font-size: 60px; /* Размер шрифта */
+    /* font-family: 'Courier New', Courier, monospace; Тип шрифта */
+    /* font-weight: 900; Толщина шрифта */
+    /* font-style: italic; Курсив */
+    color: cyan; /* Цвет шрифта */
+}
+
+p {
+    color: blueviolet;
+    /* Изменение регистра текста */
+    text-transform: capitalize; /* Первая буква слова с заглавной */
+    text-transform: uppercase; /* Верхний регистр */
+    text-transform: lowercase; /* Нижний регистр */
+    text-transform: none; /* Без форматирования */
+
+    text-decoration: underline; /* Подчеркнутый текст */
+    text-decoration: overline; /* Надчеркнутый текст */
+    text-decoration: line-through; /* Перечеркнутый текст */
+    text-decoration: underline line-through; /* 2 свойства разом */
+    text-decoration: none; /* Без форматирования */
+
+    text-shadow: 5px -4px 3px black; /* Тень текста */
+
+    text-align: left; /* Выравнивание текста слева */
+    text-align: right; /* Выравнивание текста справа */
+    text-align: justify; /* Выравнивание текста по ширине */
+    text-align: center; /* Выравнивание текста по центру */
+
+    text-indent: 40px; /* Отступ первой строки в пикселях */
+}
+
+#p1
+{
+    text-shadow: 5px -4px 3px black; /* Тень текста */
+}
+
+#p2
+{
+    text-shadow: 10px -4px 3px black; /* Тень текста */
+}
+
+#p3
+{
+    text-shadow: 5px -9px 3px black; /* Тень текста */
+}
+
+#p4
+{
+    text-shadow: 5px -4px 8px black; /* Тень текста */
+}
+
+div {
+    /* background-color: DarkOrange;
+    background-color: #FF8C00; */
+    /* background-color: rgb(255, 140, 0); */
+     background-color: rgba(0, 0, 0, .15); 
+
+    width: 100%; /* Ширина */
+    
+
+    
+    opacity: .4; /* Прозрачность */
+}

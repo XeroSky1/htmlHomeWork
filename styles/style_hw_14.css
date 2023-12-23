@@ -1,0 +1,30 @@
+@font-face{
+    font-family: 'Rubik Bubbles';
+    src: url('Rubik_Bubbles/RubikBubbles-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.layer{
+    overflow: scroll;
+    width: 75%;
+    height: 625px;
+    padding: 5px;
+    border: solid 1px black;
+    float: right;
+}
+.image{
+    float: left;
+    box-shadow: 5px 5px 10px black;
+}
+.main-text{
+    font-size: 25px;
+    color: black;
+    background-color: rgb(228, 214, 214);
+}
+.main-header{
+    font-size: 50px;
+    text-shadow: 3px 3px 3px black;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
